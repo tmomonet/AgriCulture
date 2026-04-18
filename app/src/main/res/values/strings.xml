@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgriCulture</string>
+    <string name="title_soil_labs">Soil Testing Labs</string>
+    <string name="dashboard_soil_labs_title">Soil Testing Labs</string>
+    <string name="dashboard_soil_labs_subtitle">Find accredited labs near you</string>
+    <string name="btn_visit_website">Visit Website</string>
+    <string name="label_homeowner">Homeowner</string>
+    <string name="label_farmer">Farmer</string>
+    <string name="label_pap">PAP</string>
+    <string name="label_napt">NAPT</string>
+    <string name="label_homeowner_tests">Homeowner Tests</string>
+    <string name="label_farmer_tests">Farmer Tests</string>
+    <string name="label_accreditation">Accreditation: %1$s</string>
+    <string name="format_city_state">%1$s, %2$s</string>
+    <string name="farmer_tests_same_as_homeowner">Same as homeowner tests</string>
+    <string name="content_desc_address">Tap to open in Maps</string>
+    <string name="content_desc_phone">Tap to call</string>
+</resources>

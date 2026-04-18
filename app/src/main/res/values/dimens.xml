@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin_horizontal">8dp</dimen>
+    <dimen name="card_margin_vertical">4dp</dimen>
+    <dimen name="card_content_padding">12dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="tag_padding_horizontal">8dp</dimen>
+    <dimen name="tag_padding_vertical">4dp</dimen>
+    <dimen name="tag_corner_radius">4dp</dimen>
+    <dimen name="tag_gap">4dp</dimen>
+    <dimen name="content_padding">16dp</dimen>
+    <dimen name="section_gap">8dp</dimen>
+</resources>
