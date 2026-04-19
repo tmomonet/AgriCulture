@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git checkout *)",
+      "WebFetch(domain:waterservices.usgs.gov)",
+      "WebFetch(domain:www.ncdc.noaa.gov)",
+      "Bash(curl -s \"https://www.ncdc.noaa.gov/cdo-web/api/v2/datatypes?datacategoryid=PRCP&limit=25\" -w \"\\\\nStatus: %{http_code}\\\\n\")",
+      "Bash(./gradlew compileDebugJavaWithJavac)",
+      "Bash(./gradlew testDebugUnitTest)",
+      "Bash(unzip -p \"New Mexico Meat Processing, Meat Slaughtering.kmz\" doc.kml)",
+      "Bash(curl -L -s \"https://www.google.com/maps/d/kml?mid=1WaNum01lSOamYNWA0-s-Kh_sRImno9Xg\")",
+      "Bash(curl -v -L \"https://www.google.com/maps/d/kml?mid=1WaNum01lSOamYNWA0-s-Kh_sRImno9Xg\")",
+      "Bash(curl -k -L -s \"https://www.google.com/maps/d/kml?mid=1WaNum01lSOamYNWA0-s-Kh_sRImno9Xg\")",
+      "Bash(curl -k -L -s \"https://www.google.com/maps/d/kml?mid=1WaNum01lSOamYNWA0-s-Kh_sRImno9Xg\" -o /tmp/ranches.kmz)",
+      "Bash(cd /tmp)",
+      "Bash(unzip -o ranches.kmz)"
+    ]
+  }
+}
