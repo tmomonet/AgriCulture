@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name=".AgricultureApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -27,6 +30,16 @@
             android:name=".ui.LabDetailActivity"
             android:exported="false"
             android:parentActivityName=".ui.LabListActivity" />
+
+        <activity
+            android:name=".ui.crop.CropActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+
+        <activity
+            android:name=".ui.water.WaterActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
 
     </application>
 
